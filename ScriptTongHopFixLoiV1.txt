@@ -1,0 +1,109 @@
+loadstring(game:HttpGet(("https://raw.githubusercontent.com/daucobonhi/Ui-Redz-V2/refs/heads/main/UiREDzV2.lua")))()
+
+       local Window = MakeWindow({
+         Hub = {
+         Title = "DxzVN Script",
+         Animation = "DxzVN"
+         },
+        Key = {
+        KeySystem = true,
+        Title = "DxzVN",
+        Description = "",
+        KeyLink = "https://vuotlink.vip/ELvr",
+        Keys = {"Thang2_zxcvbnm826"},
+        Notifi = {
+        Notifications = true,
+        CorrectKey = "Running the Script...",
+       Incorrectkey = "Key Sai",
+       CopyKeyLink = "Copied to Clipboard"
+      }
+    }
+  })
+
+       MinimizeButton({
+       Image = "http://www.roblox.com/asset/?id=123550188903276",
+       Size = {60, 60},
+       Color = Color3.fromRGB(10, 10, 10),
+       Corner = true,
+       Stroke = false,
+       StrokeColor = Color3.fromRGB(255, 0, 0)
+      })
+      
+------ Tab
+     local Tab1o = MakeTab({Name = "Script No key"})
+     local Tab2o = MakeTab({Name = "Script có key"})
+     
+------- BUTTON
+    
+    AddButton(Tab1o, {
+     Name = "Redz Hub",
+    Callback = function()
+	  local Settings = {
+  JoinTeam = "Pirates"; -- Pirates/Marines
+  Translator = true; -- true/false
+}
+
+loadstring(game:HttpGet("https://raw.githubusercontent.com/realredz/BloxFruits/refs/heads/main/Source.lua"))(Settings)
+  end
+  })
+  
+  AddButton(Tab1o, {
+     Name = "Speed hub",
+    Callback = function()
+	  --[[
+	WARNING: Heads up! This script has not been verified by ScriptBlox. Use at your own risk!
+]]
+loadstring(game:HttpGet("https://raw.githubusercontent.com/AhmadV99/Speed-Hub-X/main/Speed%20Hub%20X.lua"))()
+  end
+  })
+  
+  AddButton(Tab1o, {
+     Name = "QuangTum onyx Hub",
+    Callback = function()
+  loadstring(game:HttpGet("https://raw.githubusercontent.com/godhuman13/bloxfruitscript/refs/heads/main/workingscript"))()
+  end
+  })
+  
+  AddButton(Tab1o, {
+     Name = "Vxeze Hub",
+    Callback = function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/Dex-Bear/Vxezehub/refs/heads/main/Skidlamcho.txt"))()
+    end
+    })
+    
+    AddButton(Tab1o, {
+     Name = "W-az",
+    Callback = function()
+    --[[
+	WARNING: Heads up! This script has not been verified by ScriptBlox. Use at your own risk!
+]]
+getgenv().Team = "Pirates"
+getgenv().FixCrash = false -- Turn it On For Hopping Server, Improve Performance But Silent Aim On Mob And Player
+getgenv().FixCrash2 = false -- Turn it On For Hopping Server, Improve Performance But Will Remove Speed Changer
+loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/3b2169cf53bc6104dabe8e19562e5cc2.lua"))()
+end
+})
+  Addbutton(Tab1o, {
+     Name = "Autu rương 10% reset acc"
+    Callback = function()
+    _G.JoinTeam = "Marines" --// "Pirates"
+_G.Stop_If_Has_Items = true --// fasle
+loadstring(game:HttpGet("https://github.com/PNguyen0199/Script/raw/main/Trash_Auto_Chest.lua"))()
+end
+})
+
+Addbutton(Tab1o, {
+     Name = "Min Gaming"
+    Callback = function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/LuaCrack/Min/refs/heads/main/MinCE"))()
+end
+})
+  
+  AddButton(Tab2o, {
+     Name = "Hoho hub",
+    Callback = function()
+  loadstring(game:HttpGet('https://raw.githubusercontent.com/acsu123/HOHO_H/main/Loading_UI'))()
+  end
+  })
+  
+  
